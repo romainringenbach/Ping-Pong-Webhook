@@ -1,0 +1,8 @@
+{
+	"webhook_url" : "localhost",
+	"webhook_port" : "5050",
+	"webhook_path" : "/ping",
+	"client_url" : "localhost",
+	"client_port" : "2080",
+	"client_path" : "/pong"
+}
