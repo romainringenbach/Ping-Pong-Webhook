@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+ <head>
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>PingClient</title>
+	<meta name="viewport" content="width=device-width"/>
+ </head>
+
+ <body>
+
+ </body>
+<script src="socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:6040');
+
+  socket.on('pong',function (message) {
+    console.log(message);
+  });
+
+  var ping = function(message){
+  	socket.emit('toPing',{message: message});
+  };
+
+
+  var disconnect = function(){
+  	socket.emit('disconnect');
+  };
+
+</script>
+
+</html>
