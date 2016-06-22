@@ -21,3 +21,8 @@ Open the ping.html in your favorite browser, open the console and use ping("mess
 3 - When the server recieve a message by socketio (with ping("message") in your browser), it send a POST request to each client in subscription list.
 
 4 - Client recieve data and notify you with the default notification system of your operating system. The showed message shlould be the message send in your browser :)
+
+## What is missing for a good webhook
+
+- ssl encryption for data
+- token / signature provide by client to be sure it the good webhook
