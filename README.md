@@ -23,3 +23,7 @@ Open the ping.html in your favorite browser, open the console and use ping("mess
 
 - ssl encryption for data
 - token / signature provide by client to be sure it the good webhook
+
+## Tips
+
+- If you have a server/computer with public ip, try to create a client for [GitHub Webhooks](https://developer.github.com/webhooks/) to be notify when something appear in your repositories :)
