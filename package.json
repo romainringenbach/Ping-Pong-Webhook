@@ -1,0 +1,14 @@
+{
+  "name": "PingPongWebhook",
+  "version": "0.0.1",
+  "description": "Local webhook",
+  "repository": "https://github.com/nealith/",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^4.6.0",
+    "socket.io": "^1.0.0"
+  },
+  "scripts": {
+  	"start": "node ./server.js"
+  }
+}
